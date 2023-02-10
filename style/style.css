@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+* h2 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 55px;
+  padding: 75px 0px 55px;
+}
+* h2 span {
+  font-weight: 700;
+}
+* h3 {
+  font-size: 40px;
+}
+* p {
+  font-weight: 400;
+}
+
+.header {
+  display: flex;
+}
+.header__image {
+  width: 65%;
+}
+.header__text_section {
+  width: 35%;
+}
+.header__text_section {
+  padding: 70px 70px 70px 60px;
+}
+.header__text_section h2, .header__text_section span, .header__text_section p {
+  color: #262f32;
+}
+.header__text_section .header__menu {
+  display: inline-block;
+}
+.header__text_section .header__menu .menu {
+  width: 35px;
+  height: 3px;
+  background-color: #3a4245;
+  position: relative;
+  margin-bottom: 20px;
+}
+.header__text_section .header__menu .menu::after {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 35px;
+  height: 3px;
+  background-color: #3a4245;
+}
+.header__text_section .header__menu .menu::before {
+  position: absolute;
+  content: "";
+  top: 20px;
+  left: 0px;
+  width: 35px;
+  height: 3px;
+  background-color: #3a4245;
+}
+.header__text_section .header__menu .menu:hover {
+  cursor: pointer;
+}
+.header__text_section .header__menu:hover {
+  cursor: pointer;
+}
+.header__text_section .text p:nth-child(2) {
+  margin-bottom: 50px;
+}
+
+.main__section {
+  display: flex;
+}
+.main__section h2 {
+  padding: 75px 0px 37px;
+}
+.main__section .text__section_left {
+  background-image: url("../image/background_mainsection_left.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.main__section .text__section_left .text__section {
+  padding: 0px 90px 65px 70px;
+}
+.main__section .text__section_right {
+  height: 100%;
+}
+.main__section .text__section_right button {
+  margin-top: 55px;
+  padding: 15px 40px;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+.main__section .text__section_right .best__starting {
+  background-image: url("../image/best__starting.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 0px 140px 70px 60px;
+}
+.main__section .text__section_right .best__starting h2, .main__section .text__section_right .best__starting span, .main__section .text__section_right .best__starting p, .main__section .text__section_right .best__starting button {
+  color: #262f32;
+}
+.main__section .text__section_right .veryfied__dummy {
+  background-image: url("../image/verified__dummy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 0px 140px 70px 60px;
+}
+.main__section .text__section_right .veryfied__dummy button {
+  border-color: #fff;
+}
+
+.footer {
+  display: flex;
+}
+.footer .ali__sayled {
+  padding: 0px 90px 70px 40px;
+  background-image: url("../image/ale__sayed.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer .ali__sayled_container h3 {
+  margin: 30px 0px;
+}
+.footer .say__hello {
+  padding: 0px 90px 70px 40px;
+  width: 70%;
+  background-image: url("../image/say__hello.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.footer .say__hello_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.footer .say__hello .say__hello_content {
+  position: relative;
+  z-index: 5;
+}
+.footer .say__hello .say__hello_content form {
+  width: 70%;
+  margin-bottom: 95px;
+}
+.footer .say__hello .say__hello_content form input, .footer .say__hello .say__hello_content form textarea {
+  background-color: transparent;
+  padding: 17px 30px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+}
+.footer .say__hello .say__hello_content form textarea {
+  width: 100%;
+  height: 160px;
+  outline: none;
+  resize: none;
+}
+.footer .say__hello .say__hello_content form input::placeholder, .footer .say__hello .say__hello_content form textarea::placeholder {
+  color: #fff;
+}
+.footer .say__hello .say__hello_content form .form__input {
+  margin-bottom: 10px;
+}
+.footer .say__hello .say__hello_content form .form__input input {
+  width: 49%;
+  outline: none;
+}
+.footer .say__hello .say__hello_content form .form__input input:nth-child(2) {
+  margin-left: 5px;
+}
+.footer .say__hello .say__hello_content .footer__bottom_section .link {
+  margin: 25px 0px 45px;
+  display: flex;
+  column-gap: 10px;
+}
+.footer .say__hello .say__hello_content .footer__bottom_section .link div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 45px;
+  height: 45px;
+}
+.footer .say__hello .say__hello_content .footer__bottom_section .link div a {
+  padding: 10px 15px;
+}
+.footer .say__hello .say__hello_content .footer__bottom_section .link .facebook {
+  background-color: #345bb4;
+}
+.footer .say__hello .say__hello_content .footer__bottom_section .link .dribble {
+  background-color: #e64895;
+}
+.footer .say__hello .say__hello_content .footer__bottom_section .link .twitter {
+  background-color: #00b4ff;
+}
+
+@media (max-width: 1280px) {
+  .header {
+    flex-direction: column;
+  }
+  .header__image {
+    width: 100%;
+    order: 2;
+  }
+  .header__text_section {
+    width: 100%;
+    order: 1;
+  }
+  .header__text_section .text {
+    display: none;
+  }
+  .header__text_section .header__menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__text_section .menu {
+    order: 2;
+  }
+  .header__text_section .header__menu_text {
+    order: 1;
+  }
+  .header__text_section .header__menu_text h2 {
+    padding-top: 0;
+  }
+  .main__section {
+    display: block;
+  }
+  .footer .ali__sayled {
+    padding: 0px 20px 70px 40px;
+  }
+  .footer .say__hello .say__hello_content form {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
